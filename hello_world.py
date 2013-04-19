@@ -1,1 +1,1 @@
-__author__ = 'macbookair'
+print "Hello, World!"
