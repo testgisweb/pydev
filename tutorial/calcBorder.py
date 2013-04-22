@@ -39,7 +39,3 @@ for i in range(layer.GetFeatureCount()):
         feature.SetGeometry(osgeo.ogr.CreateGeometryFromWkt(wkt))
         dstLayer.CreateFeature(feature) feature.Destroy()
         dstFile.Destroy()
-
-
-
-
